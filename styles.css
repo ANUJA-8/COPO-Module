@@ -1,0 +1,111 @@
+/* Styles for header and logo */
+header {
+    background-color: #ebeae2;
+    padding: 20px;
+  }
+  h2 {
+    background-color: #cfa896;
+    padding: 20px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .college-name {
+    display: flex;
+    font-weight: bold;
+     padding: 10px;
+    color: #771a1a;
+    margin-left: 10px;
+    
+    align-items: center;
+    display: inline-block;
+  }
+  
+  .college-name a {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4b2222;
+  }
+  .contact-button {
+    margin-left:400px;               /*    */
+   /* margin-left:1050px*/
+  }
+  .contact-button a {
+    padding: 10px;
+    background-color: #428bca;
+    color: #fff;
+    text-decoration: none;
+   
+}
+  
+  .social-icons {
+    margin-left: auto;
+  }
+  
+  .social-icons img {
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .information {
+    padding: 0px;
+    font-size:larger;
+  }
+  .description{
+    padding:20px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .image-container img {
+    height: 300px;
+  }
+  .desc{
+  padding:20px
+
+  }
+  a {
+    color: #cfa896;
+   
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    max-height: 80px; /* Set the desired height for your logo */
+  }
+  
+  /* Styles for information section */
+  .information {
+    margin-top: 0px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+  }
+  .po-outcome{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
+  .image-gallery img {
+    max-width: 90%; /* Adjust the width as per your preference */
+  }
+  
+  
